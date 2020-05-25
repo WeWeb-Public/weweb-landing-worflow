@@ -13,7 +13,7 @@ const particlesOffSets = {
     },
 }
 
-const playAnimationFrom = (position) => {
+const playAnimationTo = (position) => {
     const offsets = particlesOffSets[position]
     const timeline = anime.timeline({
         duration: 3000,
@@ -27,5 +27,5 @@ const playAnimationFrom = (position) => {
     })
 }
 
-export default playAnimationFrom
+export default playAnimationTo
 

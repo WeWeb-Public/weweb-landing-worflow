@@ -122,7 +122,7 @@
 <!-- ✨ Here comes the magic ✨ -->
 
 <script>
-    import playAnimationFrom from "./animation";
+    import playAnimationTo from "./animation";
 
     const wwo = window.wwLib.wwObject;
     const wwu = window.wwLib.wwUtils;
@@ -234,7 +234,7 @@
             },
             toggleWorkflow(workflow) {
                 this.selectedWorkflow = workflow
-                playAnimationFrom(this.nextParticlesPosition)
+                playAnimationTo(this.nextParticlesPosition)
                 this.nextParticlesPosition = this.nextParticlesPosition === 'right' ? 'left' : 'right'
             },
 
@@ -259,7 +259,6 @@
                 this.update()
             },
             update() {
-                debugger
                 this.sectionCtrl.update(this.section);
             },
 
