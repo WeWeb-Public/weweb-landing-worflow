@@ -1,0 +1,881 @@
+{
+  "name": "template",
+  "background": {
+    "uniqueId": 4358430376,
+    "wwVersion": 3,
+    "content": {
+      "type": "ww-image",
+      "data": {
+        "url": "https://cdn.weweb.app/designs/362/sections/bg.jpg?v=1589807000417",
+        "twicUrl": "https://cdn.weweb.app/public/images/no_image_selected.png",
+        "alt": "",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "pos": {},
+        "zoom": 1,
+        "style": {
+          "borderRadius": 0,
+          "borderWidth": 0,
+          "borderColor": null,
+          "borderStyle": null,
+          "overlay": null,
+          "filter": null,
+          "boxShadow": {
+            "x": 0,
+            "y": 0,
+            "b": 0,
+            "s": 0,
+            "c": ""
+          }
+        },
+        "animation": {
+          "duration": 0,
+          "delay": 0,
+          "fn": null,
+          "opacity": 1,
+          "scale": 1,
+          "translateX": 0,
+          "translateY": 0,
+          "rotate": 0
+        },
+        "imgSize": {
+          "w": 1920,
+          "h": 1080
+        },
+        "hover": {
+          "name": "",
+          "options": {}
+        },
+        "focusPoint": [
+          50,
+          50
+        ]
+      }
+    },
+    "link": {
+      "type": "none",
+      "data": {}
+    },
+    "ratio": -1,
+    "paddings": {
+      "xs": {
+        "top": 0,
+        "left": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "md": {
+        "top": 0,
+        "left": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "hidden": false,
+    "tags": [],
+    "children": {},
+    "data": {},
+    "anim": {}
+  },
+  "features": [
+    {
+      "uniqueId": 3944716900,
+      "title": {
+        "uniqueId": 767519621,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      },
+      "contentList": [],
+      "menuText": {
+        "uniqueId": 3571062276,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {}
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {},
+        "new": true
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "uniqueId": 12989506371,
+      "title": {
+        "uniqueId": 192074552,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Build with higher productivity without compromising on the quality </p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      },
+      "contentList": [
+        {
+          "uniqueId": 12024527769,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: right;\"><span class=\"ww-font-size-big\">Discover how Allforweb agency doubled its margins and increased its NPS x3</span></p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 15
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        },
+        {
+          "uniqueId": 8858377933,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: center;\"><span style=\"color: rgb(224, 42, 77);\">Discover</span>[[wwObject=0]]</p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [
+                {
+                  "uniqueId": 8128279763,
+                  "wwVersion": 3,
+                  "content": {
+                    "type": "ww-icon",
+                    "data": {
+                      "icon": "fas fa-angle-right",
+                      "style": {
+                        "color": "#E02A4D",
+                        "backgroundColor": "#FFFFFF00",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 0,
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "boxShadow": {
+                          "x": 0,
+                          "y": 0,
+                          "b": 0,
+                          "s": 0,
+                          "c": ""
+                        },
+                        "size": 16,
+                        "fontSize": 16
+                      }
+                    }
+                  },
+                  "link": {
+                    "type": "none",
+                    "data": {}
+                  },
+                  "ratio": -1,
+                  "paddings": {
+                    "xs": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    },
+                    "md": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    }
+                  },
+                  "hidden": false,
+                  "tags": [],
+                  "children": {},
+                  "data": {},
+                  "anim": {}
+                }
+              ],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        }
+      ],
+      "navigatorText": {
+        "uniqueId": 7478748277,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Build</p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      }
+    },
+    {
+      "uniqueId": 5738171256,
+      "title": {
+        "uniqueId": 9889505171,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Build with higher productivity without compromising on the quality </p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      },
+      "contentList": [
+        {
+          "uniqueId": 11512196922,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: right;\"><span class=\"ww-font-size-big\">Discover how Allforweb agency doubled its margins and increased its NPS x3</span></p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 15
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        },
+        {
+          "uniqueId": 4048197735,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: center;\"><span style=\"color: rgb(224, 42, 77);\">Discover</span>[[wwObject=0]]</p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [
+                {
+                  "uniqueId": 13832579659,
+                  "wwVersion": 3,
+                  "content": {
+                    "type": "ww-icon",
+                    "data": {
+                      "icon": "fas fa-angle-right",
+                      "style": {
+                        "color": "#E02A4D",
+                        "backgroundColor": "#FFFFFF00",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 0,
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "boxShadow": {
+                          "x": 0,
+                          "y": 0,
+                          "b": 0,
+                          "s": 0,
+                          "c": ""
+                        },
+                        "size": 16,
+                        "fontSize": 16
+                      }
+                    }
+                  },
+                  "link": {
+                    "type": "none",
+                    "data": {}
+                  },
+                  "ratio": -1,
+                  "paddings": {
+                    "xs": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    },
+                    "md": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    }
+                  },
+                  "hidden": false,
+                  "tags": [],
+                  "children": {},
+                  "data": {},
+                  "anim": {}
+                }
+              ],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        }
+      ],
+      "navigatorText": {
+        "uniqueId": 10497378370,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Connect</p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      }
+    },
+    {
+      "uniqueId": 4545177334,
+      "title": {
+        "uniqueId": 15077842024,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Deploy w higher productivity without compromising on the quality </p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      },
+      "contentList": [
+        {
+          "uniqueId": 5588801886,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: right;\"><span class=\"ww-font-size-big\">Discover how Allforweb agency doubled its margins and increased its NPS x3</span></p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 15
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        },
+        {
+          "uniqueId": 6148676919,
+          "wwVersion": 3,
+          "content": {
+            "type": "ww-text",
+            "data": {
+              "text": {
+                "fr": "Nouveau texte",
+                "en": "<p style=\"text-align: center;\"><span style=\"color: rgb(224, 42, 77);\">Discover</span>[[wwObject=0]]</p>"
+              },
+              "tag": "div",
+              "align": "",
+              "font": "",
+              "size": "",
+              "color": "",
+              "classes": [],
+              "children": [
+                {
+                  "uniqueId": 3144834331,
+                  "wwVersion": 3,
+                  "content": {
+                    "type": "ww-icon",
+                    "data": {
+                      "icon": "fas fa-angle-right",
+                      "style": {
+                        "color": "#E02A4D",
+                        "backgroundColor": "#FFFFFF00",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 0,
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "boxShadow": {
+                          "x": 0,
+                          "y": 0,
+                          "b": 0,
+                          "s": 0,
+                          "c": ""
+                        },
+                        "size": 16,
+                        "fontSize": 16
+                      }
+                    }
+                  },
+                  "link": {
+                    "type": "none",
+                    "data": {}
+                  },
+                  "ratio": -1,
+                  "paddings": {
+                    "xs": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    },
+                    "md": {
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "bottom": 0
+                    }
+                  },
+                  "hidden": false,
+                  "tags": [],
+                  "children": {},
+                  "data": {},
+                  "anim": {}
+                }
+              ],
+              "fontStyle": ""
+            }
+          },
+          "link": {
+            "type": "none",
+            "data": {}
+          },
+          "ratio": -1,
+          "paddings": {
+            "xs": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "md": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            }
+          },
+          "hidden": false,
+          "tags": [],
+          "children": {},
+          "data": {},
+          "anim": {}
+        }
+      ],
+      "navigatorText": {
+        "uniqueId": 8913006348,
+        "wwVersion": 3,
+        "content": {
+          "type": "ww-text",
+          "data": {
+            "text": {
+              "fr": "Nouveau texte",
+              "en": "<p style=\"text-align: center;\">Deploy</p>"
+            },
+            "tag": "div",
+            "align": "",
+            "font": "",
+            "size": "",
+            "color": "",
+            "classes": [],
+            "children": [],
+            "fontStyle": ""
+          }
+        },
+        "link": {
+          "type": "none",
+          "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+          "xs": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "md": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+      }
+    }
+  ]
+}
