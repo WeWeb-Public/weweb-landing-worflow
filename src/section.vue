@@ -220,9 +220,8 @@
                 navigatorText: wwo.getDefault({type: 'ww-text'})
             }),
             createWorkflow() {
-                let workflow = {}
                 if (Array.isArray(this.section.data.workflows) && this.section.data.workflows.length > 0) {
-                    workflow = JSON.parse(JSON.stringify(this.section.data.workflows[0]))
+                    const workflow = JSON.parse(JSON.stringify(this.section.data.workflows[0]))
                     wwu.changeUniqueIds(workflow)
                     workflow.uniqueId = wwu.getUniqueId()
                     return workflow
@@ -340,17 +339,25 @@
                 z-index: 0;
                 transition: opacity 3000ms 500ms ease-out;
             }
-
         }
 
         &-title {
             font-family: Work Sans;
             font-style: normal;
             font-weight: bold;
-            font-size: 36px;
-            line-height: 42px;
+
             text-align: center;
             margin-bottom: 16px;
+
+            @media (min-width: 768px) {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            @media (min-width: 1024px) {
+                font-size: 36px;
+                line-height: 42px;;
+            }
         }
 
         &-icon {

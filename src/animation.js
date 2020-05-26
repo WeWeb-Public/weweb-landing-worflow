@@ -16,8 +16,8 @@ const particlesOffSets = {
 const playAnimationTo = (position) => {
     const offsets = particlesOffSets[position]
     const timeline = anime.timeline({
-        duration: 3000,
-        easing: 'easeOutElastic(1, 10)'
+        duration: 2500,
+        easing: 'easeOutExpo'
     })
     Object.keys(offsets).forEach((key, idx) => {
         timeline.add({
