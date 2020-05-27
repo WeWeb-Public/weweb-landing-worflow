@@ -248,7 +248,7 @@
             addWorkflowAt(index) {
                 const {workflows} = this.section.data
                 const head = workflows.slice(0, index)
-                const tail = index === 0 ? workflows : workflows.slice(index + 1)
+                const tail = index === 0 ? workflows : workflows.slice(index)
                 this.section.data.workflows = [...head, this.createWorkflow(), ...tail]
             },
             removeWorkflow(workflow) {
