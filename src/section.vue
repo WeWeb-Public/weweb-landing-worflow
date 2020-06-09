@@ -330,7 +330,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
             opacity: 0;
             z-index: 0;
 
@@ -342,7 +341,6 @@
         }
 
         &-title {
-            font-family: Work Sans;
             font-style: normal;
             font-weight: bold;
 
@@ -389,14 +387,13 @@
         z-index: 3;
 
         &-item {
-            cursor: default;
+            cursor: pointer;
             pointer-events: all;
             width: 120px;
             overflow: hidden;
         }
 
         &-text {
-            font-family: Work Sans;
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
