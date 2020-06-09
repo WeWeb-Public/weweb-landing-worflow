@@ -4,9 +4,9 @@
     "wewebPublic": "true",
     "repository": {
         "type": "git",
-        "url": "https://github.com/WeWeb-Public/weweb-landing-worflow.git"
+        "url": "https://github.com/WeWeb-Public/weweb-landing-workflow.git"
     },
-    "version": "0.0.3",
+    "version": "0.0.4",
     "private": true,
     "scripts": {
         "build": "weweb-build",
