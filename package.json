@@ -1,5 +1,5 @@
 {
-    "name": "weweb-landing-workflow",
+    "name": "weweb_landing_workflow",
     "type": "section",
     "wewebPublic": "true",
     "repository": {
