@@ -51,6 +51,7 @@
         <div class="workflow-section-content">
             <ul class="workflow-list">
                 <li class="workflow-wrapper"
+                    :class="{selected: isWorkFlowSelected(workflow)}"
                     v-for="(workflow, index) in section.data.workflows"
                     :key="workflow.uniqueId">
                     <!-- wwManager:start -->
@@ -323,6 +324,11 @@
             top: 0;
             width: 100%;
             min-height: 200px;
+            z-index: 0;
+
+            &.selected {
+                z-index: 1;
+            }
         }
 
         &-item {
@@ -331,11 +337,9 @@
             flex-direction: column;
             align-items: center;
             opacity: 0;
-            z-index: 0;
 
             &.selected {
                 opacity: 1;
-                z-index: 0;
                 transition: opacity 3000ms 500ms ease-out;
             }
         }
