@@ -175,8 +175,13 @@
                 return this.sectionCtrl.getEditMode() === 'CONTENT'
             },
 
+            getScreenSize() {
+                return this.$store.getters['front/getScreenSize'];
+            },
+
             navigatorStyle() {
-                const offset = this.section.data.workflows.indexOf(this.selectedWorkflow) * 120;
+                const itemWidth=this.getScreenSize==='xs'?100:120
+                const offset = this.section.data.workflows.indexOf(this.selectedWorkflow) * itemWidth;
                 return {
                     'margin-left': `${offset}px`
                 }
@@ -302,12 +307,21 @@
 
     .workflow-section-content {
         position: relative;
-        padding: 274px 0;
-        width: 768px;
+        padding: 64px 0;
+        width: 100%;
         margin: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media (min-width: 768px) {
+            padding: 274px 0;
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            width: 768px;
+        }
     }
 
     .workflow {
@@ -381,27 +395,45 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 368px;
-        height: 48px;
-        margin-top: 64px;
+        width: 308px;
+        height: 36px;
+        margin-top: 48px;
         border-radius: 12px;
         padding: 4px;
         background-color: #FFFFFF;
         list-style-type: none;
         z-index: 3;
 
+        @media (min-width: 768px) {
+            height: 48px;
+            width: 368px;
+            margin-top: 64px;
+        }
+
         &-item {
             cursor: pointer;
             pointer-events: all;
-            width: 120px;
+            width: 100px;
             overflow: hidden;
+
+            @media (min-width: 768px) {
+                width: 120px;
+            }
         }
 
         &-text {
             font-weight: bold;
-            font-size: 24px;
-            line-height: 28px;
+            font-size: 16px;
             color: var(--color-navigator-text);
+
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+
+            @media (min-width: 1024px) {
+                font-size: 24px;
+                line-height: 28px;
+            }
 
             &.selected {
                 transition: color 500ms ease-in;
@@ -413,11 +445,16 @@
             position: absolute;
             top: 4px;
             left: 4px;
-            height: 40px;
-            width: 120px;
+            height: 28px;
+            width: 100px;
             border-radius: 12px;
             background-color: rgba(73, 185, 179, 0.16);
             transition: margin-left 250ms ease-in;
+
+            @media (min-width: 768px) {
+                height: 40px;
+                width: 120px;
+            }
         }
     }
 
